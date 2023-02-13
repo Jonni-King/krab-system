@@ -1,0 +1,19 @@
+
+:root {
+    /* colors */
+    --default-text-color: #000000;
+    --default-bg-color: #151616;
+  
+    --shade-1: #fff;
+    --shade-2: #31d6a5;
+    --shade-3: rgba(21,22,22,.8);
+  
+    /* fonts */
+    --main-font-family: 'Montserrat', sans-serif;
+    --secondary-font-family: 'Noto Sans', sans-serif;
+    --default-font-family: 'Open Sans', sans-serif;
+    
+    
+    /* duration */
+    --duration: .3s;
+  }

@@ -1,0 +1,129 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-input {
+  text-align: center;
+  padding: 10px 5px;
+  width: 100%;
+}
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: hsl(0deg 0% 100% / 90%);
+  margin: 15% auto;
+  padding: 20px 15px;
+  border: 1px solid #888;
+  width: 50%;
+  height: auto;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.modal-btn {
+  padding: 10px 30px;
+}
+/* The Close Button */
+.close {
+  right: 3px;
+  top: 0;
+  position: absolute;
+  color: black;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+}
+
+.close:hover,
+.close:focus {
+  color: #319f01;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.city-list {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+.modal__city {
+  padding: 10px 10px;
+}
+.city-item {
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.city-item:hover {
+  background-color: #319f01;
+}
+
+.close-modal {
+  cursor: pointer;
+  position: absolute;
+  font-size: 40px;
+  float: right;
+  right: 10px;
+  top: 0;
+}
+.close-modal:hover {
+  color: #319f01;
+}
+
+.modal-card {
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+}
+.modal-card_title {
+  font-size: 25px;
+  text-align: center;
+}
+.modal-card_text {
+  font-size: 20px;
+}
+
+.card_text-span {
+  font-weight: 700;
+}
+
+.modal-content__city {
+  background-color: hsl(0deg 0% 100% / 90%);
+  height: auto;
+  width: 50%;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 70%;
+  }
+  .city-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .modal-content__city {
+    width: 80%;
+  }
+}
+@media (max-width: 425px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+

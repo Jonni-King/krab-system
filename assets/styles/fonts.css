@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat-Regular"),
+      url("/assets/fonts/Montserrat-Regular.ttf") format("ttf"),
+  }
+
+  @font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat-Bold"),
+      url("/assets/fonts/Montserrat-Bold.ttf") format("ttf"),
+  }
+
+  @font-face {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local("NotoSans-Regular"),
+      url("/assets/fonts/NotoSans-Regular.ttf") format("ttf"),
+  }
+
+  @font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local("OpenSans-Bold"),
+      url("/assets/fonts/OpenSans-Bold.ttf") format("ttf"),
+  }
+
+  @font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local("OpenSans-Regular"),
+      url("/assets/fonts/OpenSans-Regular.ttf") format("ttf"),
+  }
+  
+  

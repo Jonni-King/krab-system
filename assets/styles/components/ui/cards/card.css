@@ -1,0 +1,75 @@
+.card {
+  max-width: 302px;
+  background-color: #ffffff;
+  display: grid;
+  column-gap: 15px;
+  row-gap: 16px;
+  box-shadow: 0px 5.10782px 11.4926px rgba(0, 0, 0, 0.15);
+}
+.card__img {
+  width: 302px;
+  height: 194px;
+}
+.card__price {
+  display: flex;
+}
+.card__description {
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  font-size: 18px;
+  padding: 0 18px;
+}
+.card__setprice {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 18px;
+}
+
+.card__set-number {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  width: 40px;
+  height: 20px;
+  border: 0.5px solid #c9c9c9;
+  border-radius: 3px;
+  text-align: center;
+}
+.card__set-text {
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+}
+.card__price-meaning {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 425px) {
+  .card-mini__text {
+  }
+  .card-mini__title {
+  }
+}
+@media (max-width: 375px) {
+  .instock {
+    padding: 32px 0 32px;
+  }
+  .card__btn {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

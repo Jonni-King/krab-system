@@ -1,0 +1,63 @@
+.instock {
+  background-color: #f2efed;
+  padding: 72px 0 65px;
+}
+
+.instock__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 15px;
+}
+
+.instock__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 77px;
+}
+@media (max-width: 1024px) {
+  .instock {
+    padding: 65px 0 58px;
+  }
+}
+
+@media (max-width: 768px) {
+  .instock {
+    padding: 60px 0 50px;
+  }
+  .instock__title {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .instock__title {
+    margin-bottom: 45px;
+}
+}
+
+@media (max-width: 375px) {
+  .instock {
+    padding: 32px 0 32px;
+  }
+  .instock__title {
+    margin-bottom: 32px;
+  }
+  .card__description {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .card__price {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card__set-text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .card__set-number {
+    width: 38px;
+    height: 19px;
+  }
+}

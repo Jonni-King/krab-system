@@ -1,0 +1,49 @@
+@import url(/assets/styles/fonts.css);
+@import url(/assets/styles/global.css);
+@import url(/assets/styles/grid.css);
+@import url(/assets/styles/variables.css);
+/* ui */
+@import url(/assets/styles/components/ui/buttons.css);
+@import url(/assets/styles/components/ui/cards/cards-mini.css);
+@import url(/assets/styles/components/ui/cards/card.css);
+@import url(/assets/styles/components/ui/form.css);
+@import url(/assets/styles/components/ui/cards/reviews__card.css);
+@import url(/assets/styles/components/ui/modal.css);
+/* templates */
+@import url(/assets/styles/components/templates/header.css);
+/* sections */
+@import url(/assets/styles/components/sections/first-screen.css);
+@import url(/assets/styles/components/sections/benefits.css);
+@import url(/assets/styles/components/sections/instock.css);
+@import url(/assets/styles/components/sections/whywe.css);
+@import url(/assets/styles/components/sections/production.css);
+@import url(/assets/styles/components/sections/calculation.css);
+@import url(/assets/styles/components/sections/partners.css);
+@import url(/assets/styles/components/sections/reviews.css);
+@import url(/assets/styles/components/sections/map.css);
+@import url(/assets/styles/components/sections/footer.css);
+
+
+@media (max-width: 1024px) {
+  .title-h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  .title-h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title-h2 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,70 @@
+.card-mini {
+  position: relative;
+  padding-left: 122px;
+}
+
+
+.card-mini__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+}
+.card-mini__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+
+.benefitscard-mini__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 1024px) {
+  .card-mini {
+    padding-left: 90px;
+  }
+  .card-mini__icon {
+    width: 70px;
+    height: 70px;
+  }
+  .card-mini__title {
+    font-size: 20px;
+  }
+  .card-mini__text {
+  }
+  @media (max-width: 768px) {
+    .card-mini {
+      padding-left: 90px;
+    }
+    @media (max-width: 425px) {
+
+      .card-mini__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card-mini__title {
+      font-size: 17px;
+      line-height: 25px;
+    }
+
+      @media (max-width: 375px) {
+        .card-mini {
+          padding-left: 65px;
+      }
+        .card-mini__icon {
+          width: 50px;
+          height: 50px;
+        }
+        
+        .card-mini__text {
+          font-size: 10px;
+          line-height: 13px;
+      }
+      .card-mini__title {
+        font-size: 12px;
+        line-height: 17px;}
+}

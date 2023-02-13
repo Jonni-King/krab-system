@@ -1,0 +1,147 @@
+.calculation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 452px;
+  max-height: 528px;
+  background-color: #fff;
+  padding: 42px 15px;
+}
+input {
+  margin-bottom: 20px;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+input:focus::-moz-placeholder {
+  color: transparent;
+} /* FF 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+.calculation-form__p {
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.form-phone {
+  max-width: 340px;
+  border: 1px solid #7a7a7a;
+  border-radius: 5px;
+  padding: 25px 40px;
+  text-align: start;
+}
+.form-email {
+  border: 1px solid #7a7a7a;
+  border-radius: 5px;
+  padding: 25px 40px;
+  text-align: start;
+}
+.input {
+  position: relative;
+}
+.calculation-input__icon {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+}
+.form-checkbox {
+  display: none;
+  margin-right: 8px;
+}
+.calculation__label {
+  color: #7e868e;
+  font-size: 11px;
+  line-height: 130%;
+}
+.calculation__label.checked:after {
+  display: block;
+}
+.calculation__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 22px;
+}
+
+.calculation__label:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid Green;
+}
+.calculation__label:after {
+  content: url("/assets/img/svg/checkbox.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid Green;
+  display: none;
+}
+.calculation__label:active:after {
+  content: url("/assets/img/svg/checkbox.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid Green;
+  display: block;
+}
+
+.form-btn {
+  padding: 18px 20px;
+}
+
+@media (max-width: 768px) {
+  .calculation-form__p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 375px) {
+  .calculation-form__p {
+    font-size: 10px;
+  }
+  .form-phone,
+  .form-email {
+    font-size: 9px;
+    padding: 20px 60px;
+  }
+  .form-btn {
+    padding: 15px 45px;
+    font-size: 13px;
+  }
+  .calculation__label {
+    font-size: 9px;
+  }
+  .calculation-input__icon {
+    top: 15px;
+    left: 13px;
+  }
+  input {
+    margin-bottom: 10px;
+  }
+  .calculation-form__p {
+    margin-bottom: 25px;
+  }
+  .calculation__label:before {
+    padding: 6px;
+    width: 0;
+    height: 0;
+  }
+  .calculation__label:after {
+    
+  }
+}
